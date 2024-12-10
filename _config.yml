@@ -6,7 +6,7 @@ baseurl: ""
 
 navigation:
   - name: "Home"
-    link: "/"
+    link: "/home/"
   - name: "About"
     link: "/about/"
   - name: "Contacts"
