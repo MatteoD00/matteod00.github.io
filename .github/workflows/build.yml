@@ -25,7 +25,7 @@ jobs:
 
       - name: Build site
         env:
-          GH_TOKEN: ${{ secrets.TOKEN }}  # Pass the token as an environment variable
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Pass the token as an environment variable
         run: |
           bundle exec jekyll build
 
