@@ -19,4 +19,4 @@ plugins:
 
 github:
   username: MatteoD00
-  token: {{ ENV['GH_TOKEN'] }}  # This will pull the token securely from GitHub Secrets
+  token: ${{ secrets.GITHUB_TOKEN }}  # This will pull the token securely from GitHub Secrets
