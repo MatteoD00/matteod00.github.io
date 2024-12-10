@@ -1,7 +1,6 @@
 ---
-layout: home
+layout: page
 title: Home
-name: Home
 permalink: /home/
 ---
 # Welcome to My GitHub Page!
