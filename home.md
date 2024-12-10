@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: home
 title: Home
-permalink: /home/
+permalink: /
 ---
 # Welcome to My GitHub Page!
 
