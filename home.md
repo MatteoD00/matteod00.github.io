@@ -2,7 +2,7 @@
 layout: home
 title: Home
 name: Home
-permalink: /
+permalink: /home/
 ---
 # Welcome to My GitHub Page!
 
