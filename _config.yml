@@ -4,3 +4,10 @@ theme: minima # You can replace this with any Jekyll theme
 url: "https://matteod00.github.io"
 baseurl: ""
 
+navigation:
+  - name: "Home"
+    link: "/"
+  - name: "About"
+    link: "/about/"
+  - name: "Contact"
+    link: "/contact/"
