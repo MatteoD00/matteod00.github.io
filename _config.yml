@@ -18,5 +18,5 @@ plugins:
   - jekyll-github-metadata
 
 github:
-  username: your_github_username
-  token: {{ ENV['TOKEN'] }}  # This will pull the token securely from GitHub Secrets
+  username: MatteoD00
+  token: {{ ENV['GH_TOKEN'] }}  # This will pull the token securely from GitHub Secrets
