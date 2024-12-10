@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "Welcome to My GitHub Page!"
+title: home
 permalink: /
 ---
-# Introduction
+# Welcome to My GitHub Page!
 
 I am a MSc student in Physics at University of Turin, specialising in silicon detectors for high energy physics experiments. I'm also a tech passionate and a (basic) programmer.
 
