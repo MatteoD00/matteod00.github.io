@@ -11,3 +11,6 @@ navigation:
     link: "/about/"
   - name: "Contacts"
     link: "/contacts/"
+
+plugins:
+  - jekyll-github-metadata
