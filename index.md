@@ -1,6 +1,7 @@
 ---
 layout: home
 title: "Welcome to My GitHub Page!"
+permalink: /
 ---
 # Introduction
 
