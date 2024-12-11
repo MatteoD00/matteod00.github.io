@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Contacts
+order: 4
 permalink: /contacts/
 ---
 # Contacts
