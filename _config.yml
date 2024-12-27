@@ -6,6 +6,7 @@ baseurl: ""
 
 plugins:
   - jekyll-github-metadata
+  - jemoji
 
 github:
   username: MatteoD00
