@@ -12,7 +12,8 @@ I am a MSc student in Physics at University of Turin, specialising in silicon de
 - *BSc Degree in Physics* - _University of Turin_ (2019 - 2022)
   - Thesis: "Characterization and data analysis on resistive silicon detectors"
   - Grade: 108/110
-- *MSc Degree in Physics* - _University of Turin_ (2022 - ongoing)
+- *MSc Degree in Physics* - _University of Turin_ (2022 - ongoing)<br>
+  I'm specializing in various aspects of experimental particle physics (simulation, event reconstruction and analysis, detector characterisation, electronics). My main focus is about R&D of silicon detectors with improved time resolution and radiation tolerance for future collider experiments.
 
 # Working experience 
 - *Math and Science tutor* - _University of Turin_ (01/2021 - 06/2021)<br>
