@@ -6,6 +6,8 @@ permalink: /contacts/
 ---
 # Contacts
 Here are some of my contacts<br>
-:envelope: Email: [durando.matteo@gmail.com](durando.matteo@gmail.com)<br>
-:link: [Linkedin](www.linkedin.com/in/matteodurando)<br>
-:computer: [Github](https://github.com/MatteoD00)<br>
+<ul style="list-style: none; padding-left: 0;">
+    <li><span style="margin-right: 0.5em;">:envelope:</span> Email: <a href="mailto:durando.matteo@gmail.com">durando.matteo@gmail.com</a>
+    <li><span style="margin-right: 0.5em;">:link:</span><a href="https://www.linkedin.com/in/matteodurando">LinkedIn</a>
+    <li><span style="margin-right: 0.5em;">:computer:</span><a href="https://github.com/MatteoD00">GitHub</a>
+</ul>
