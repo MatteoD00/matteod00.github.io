@@ -11,7 +11,7 @@ Here are my public repositories:
 <ul>
   {% for repo in site.github.public_repositories %}
     {% if repo.name != "TO_SysTest" and repo.name != "InterlockBox_SummerDESY"%}
-     <li>
+     <li>:file_folder:
        <a href="https://github.com/{{ repo.owner.login }}/{{ repo.name }}" target="_blank">
          {{ repo.name }}
        </a>
