@@ -33,7 +33,7 @@ I am a MSc student in Physics at University of Turin, specialising in silicon de
     The main activity was to help the students of the laboratory with experiments involving SiPM and scintillators for cosmic ray detection.
   </li>
   <li><span style="margin-right: 0.5em;">👩‍🏫</span> <em>Math and Science Tutor</em> - <em>University of Turin</em> (01/2021 - 06/2021)<br>
-    Tutor for the project <a href="https://compitiacasa.i-learn.unito.it/">"Compiti@Casa"</a> (translation: Homework@Home).<br>
+    Tutor for the project <a href="https://compitiacasa.i-learn.unito.it/">Compiti@Casa</a> (translation: Homework@Home).<br>
     Helping students from middle school in math and science to achieve more independence while studying and doing homework at home.<br>
     Focus on addressing problems and gaps related to e-learning during the COVID-19 pandemic.
   </li>
