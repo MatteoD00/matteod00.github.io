@@ -8,7 +8,7 @@ permalink: /about/
 # About me...
 I am a MSc student in Physics at University of Turin, specialising in silicon detectors for high energy physics experiments. I’m also a tech passionate and a (basic) programmer.
 
-# Academic experience
+## Academic experience
 <ul style="list-style: none; padding-left: 0;">
   <li><span style="margin-right: 0.5em;">⚛️</span> <a href="https://www.fisicamagistrale.unito.it/do/home.pl"><em>MSc Degree in Physics</em></a> - <em>University of Turin</em> (2022 - ongoing)<br>
     I'm specializing in various aspects of experimental particle physics (simulation, event reconstruction and analysis, detector characterisation, electronics). My main focus is about R&D of silicon detectors with improved time resolution and radiation tolerance for future collider experiments.
@@ -21,7 +21,7 @@ I am a MSc student in Physics at University of Turin, specialising in silicon de
   </li>
 </ul>
 
-# Working experience 
+## Working experience 
 <ul style="list-style: none; padding-left: 0;">
   <li><span style="margin-right: 0.5em;">☀️</span> <a href="https://www.desy.de/f/students/summer_home_2024_final.html"><em>Summer Research Student</em></a> - <em>DESY Hamburg</em> (07/2024 - 09/2024)<br>
     Working in the ATLAS ITk Strip End-Cap division, with a focus on Petal & System Test.<br>
@@ -36,5 +36,12 @@ I am a MSc student in Physics at University of Turin, specialising in silicon de
     Tutor for the project <a href="https://compitiacasa.i-learn.unito.it/">Compiti@Casa</a> (translation: Homework@Home).<br>
     Helping students from middle school in math and science to achieve more independence while studying and doing homework at home.<br>
     Focus on addressing problems and gaps related to e-learning during the COVID-19 pandemic.
+  </li>
+</ul>
+
+## Other experiences
+<ul style="list-style: none; padding-left: 0;">
+  <li><span style="margin-right: 0.5em;">:chart_increasing:</span> <a href="https://www.desy.de/f/students/summer_home_2024_final.html"><em>PIXEL 2024 Conference</em></a> - <em>Strasbourg</em> (18/11/2024 - 22/11/2024)<br>
+    Presented the poster "Thin LGADs as radiation-resilient sensors for 4D tracking" at the <em>Eleventh International Workshop on Semiconductor Pixel Detectors for Particles and Imaging (Pixel2024)</em>
   </li>
 </ul>
