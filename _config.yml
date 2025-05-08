@@ -1,13 +1,19 @@
 title: "Matteo Durando's Portfolio"
 description: "A showcase of my projects, skills, and interests."
-theme: minima # You can replace this with any Jekyll theme
+theme: minima
 url: "https://matteod00.github.io"
 baseurl: ""
+
+markdown: kramdown
+highlighter: rouge
 
 plugins:
   - jekyll-github-metadata
   - jemoji
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-fontawesome
 
 github:
   username: MatteoD00
-#  token: ${{ secrets.GITHUB_TOKEN }}  # This will pull the token securely from GitHub Secrets
+#  token: ${{ secrets.GITHUB_TOKEN }}
