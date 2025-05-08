@@ -15,6 +15,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-fontawesome
   - jekyll-remote-theme
+  - jekyll-feed
 
 github:
   username: MatteoD00
