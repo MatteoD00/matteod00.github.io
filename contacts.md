@@ -13,6 +13,6 @@ Here are some of my contacts<br>
     </li>
     <li><span style="margin-right: 0.5em;">:computer:</span><a href="https://github.com/MatteoD00">GitHub</a>
     </li>
-    <li><span style="margin-right: 0.5em;">:fa-orcid:</span><a href="https://orcid.org/0009-0005-8595-1570">0009-0005-8595-1570</a>
+    <li><span style="margin-right: 0.5em;"><i class="fab fa-orcid"></i></span><a href="https://orcid.org/0009-0005-8595-1570">0009-0005-8595-1570</a>
     </li>
 </ul>
