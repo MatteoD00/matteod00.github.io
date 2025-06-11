@@ -6,7 +6,7 @@ permalink: /about/
 ---
 
 # About me...
-I am a MSc student in Physics at University of Turin, specialising in silicon detectors for high energy physics experiments. I’m also a tech passionate and a (basic) programmer.
+I am a MSc graduate in Physics at University of Turin, specialising in silicon detectors for high energy physics experiments. I’m also a tech passionate and a (basic) programmer.
 
 ## Academic experience
 <ul style="list-style: none; padding-left: 0;">
