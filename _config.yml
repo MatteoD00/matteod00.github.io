@@ -1,7 +1,7 @@
 title: "Matteo Durando's Portfolio"
 description: "A showcase of my projects, skills, and interests."
 #remote_theme: pages-themes/primer@v0.6.0
-theme: jekyll-theme-primer
+theme: minima
 url: "https://matteod00.github.io"
 baseurl: ""
 locale: "en"
