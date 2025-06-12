@@ -8,3 +8,4 @@ gem "jekyll-sitemap"
 gem "jekyll-fontawesome"
 gem "github-pages"
 gem "jekyll-feed"
+gem "github-pages", group: :jekyll_plugins
