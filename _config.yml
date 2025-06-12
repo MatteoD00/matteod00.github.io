@@ -1,7 +1,7 @@
 title: "Matteo Durando's Portfolio"
 description: "A showcase of my projects, skills, and interests."
-# remote_theme: pages-themes/cayman@v0.2.0
-theme: minima
+remote_theme: pages-themes/cayman@v0.2.0
+#theme: minima
 url: "https://matteod00.github.io"
 baseurl: ""
 
