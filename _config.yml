@@ -1,9 +1,12 @@
 title: "Matteo Durando's Portfolio"
 description: "A showcase of my projects, skills, and interests."
-remote_theme: pages-themes/primer@v0.6.0
-#theme: cayman
+#remote_theme: pages-themes/primer@v0.6.0
+theme: minima
 url: "https://matteod00.github.io"
 baseurl: ""
+locale: "en"
+name: "Matteo Durando"
+repository: "MatteoD00/matteod00.github.io"
 
 markdown: kramdown
 highlighter: rouge
