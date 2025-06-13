@@ -28,6 +28,14 @@
         text-decoration: none;
         margin: 0 0.5rem;
       }
+      
+      .footer-center img {
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        margin: 0 0.5em;
+        filter: invert(1); /* for white icons on dark background */
+      }
 
       @media (max-width: 600px) {
         .site-footer {
@@ -36,6 +44,7 @@
           gap: 0.5rem;
         }
       }
+
     </style>
 
     {% include head-custom.html %}
@@ -66,21 +75,21 @@
 
       <div class="footer-center">
         <a href="mailto:durando.matteo@gmail.com" aria-label="Email">
-          <img src="/_includes/icon-email.svg" alt="Email" width="24" height="24">
+          <img src="/_includes/icon-email.svg" alt="Email" width="24" height="24"/>
         </a>
         <a href="https://github.com/MatteoD00" aria-label="GitHub">
-          <img src="/_includes/icon-square-github.svg" alt="GitHub" width="24" height="24">
+          <img src="/_includes/icon-square-github.svg" alt="GitHub" width="24" height="24"/>
         </a>
         <a href="https://www.linkedin.com/in/matteodurando/" aria-label="LinkedIn">
-          <img src="/_includes/icon-linkedin.svg" alt="LinkedIn" width="24" height="24">
+          <img src="/_includes/icon-linkedin.svg" alt="LinkedIn" width="24" height="24"/>
         </a>
         <a href="https://orcid.org/0009-0005-8595-1570" aria-label="ORCiD">
-          <img src="/_includes/icon-orcid.svg" alt="ORCiD" width="24" height="24">
+          <img src="/_includes/icon-orcid.svg" alt="ORCiD" width="24" height="24"/>
         </a>
       </div>
 
       <div class="footer-right">
-        Powered by <a href="https://jekyllrb.com">Jekyll</a> & hosted on <a href="https://pages.github.com">GitHub Pages</a>
+        Powered by <a href="https://jekyllrb.com" style="text-decoration: underline;">Jekyll</a> & hosted on <a href="https://pages.github.com" style="text-decoration: underline;">GitHub Pages</a>
       </div>
     </footer>
   </body>
