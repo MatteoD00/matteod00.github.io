@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Home
+title: Matteo Durando's Portfolio
+description: A showcase of my projects, skills, and interests.
 order: 1
 permalink: /
 ---
