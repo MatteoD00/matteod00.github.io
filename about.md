@@ -55,6 +55,6 @@ I am a MSc graduate in Physics at University of Turin, specialising in silicon d
 </ul>
 
 ## Publications and Proceedings
-1. M. Durando, A.R. Altamura, L. Anderlini et al., “Thin LGADs as radiation-resilient sensors for 4D tracking”, accepted by J. Instrum. as Proceedings of PIXEL24 (Strasbourg, France), in press.
-2. M. Ferrero, A.R. Altamura, R. Arcidiacono et al., "FAST3 ASIC: an analog front-end with 30 ps resolution, designed to readout thin Low Gain Avalanche Diodes" in J. Instrum., vol. 20, 2025.  DOI: [10.1088/1748-0221/20/03/C03007]{https://doi.org/10.1088/1748-0221/20/03/C03007}
-3. T.Croci, A. Fondacci, R. White et al., "Measurements and TCAD simulations of guard-ring structures of thin silicon sensors before and after irradiation" in Nucl. Instrum. Meth. A, vol. 1069, 2024. DOI: [10.1016/j.nima.2024.169801]{https://doi.org/10.1016/j.nima.2024.169801}
+1. M. Durando, A.R. Altamura, L. Anderlini et al., “Thin LGADs as radiation-resilient sensors for 4D tracking”, accepted by J. Instrum. as Proceedings of PIXEL24 (Strasbourg, France), in press.<br>
+2. M. Ferrero, A.R. Altamura, R. Arcidiacono et al., "FAST3 ASIC: an analog front-end with 30 ps resolution, designed to readout thin Low Gain Avalanche Diodes" in J. Instrum., vol. 20, 2025.  DOI: [10.1088/1748-0221/20/03/C03007](https://doi.org/10.1088/1748-0221/20/03/C03007)<br>
+3. T.Croci, A. Fondacci, R. White et al., "Measurements and TCAD simulations of guard-ring structures of thin silicon sensors before and after irradiation" in Nucl. Instrum. Meth. A, vol. 1069, 2024. DOI: [10.1016/j.nima.2024.169801](https://doi.org/10.1016/j.nima.2024.169801)
