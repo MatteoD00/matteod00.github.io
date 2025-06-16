@@ -11,16 +11,16 @@ I am a MSc graduate in Physics at University of Turin, specialising in silicon d
 ## Academic experience
 <ul style="list-style: none; padding-left: 0;">
   <li><span style="margin-right: 0.5em;">⚛️</span> <a href="https://www.fisicamagistrale.unito.it/do/home.pl"><em>MSc Degree in Physics</em></a> - <em>University of Turin</em> (2022 - 2025)<br>
-    I'm specializing in various aspects of experimental particle physics (simulation, event reconstruction and analysis, detector characterisation, electronics). My 
-    main focus is about R&D of silicon detectors with improved time resolution and radiation tolerance for future collider experiments.
-    <ul style="list-style: none; padding-left: 0.5em;">
+    I've specialized in various aspects of experimental particle physics (simulation, event reconstruction and analysis, detector characterisation, electronics). My 
+    main focus has been about R&D of silicon detectors with improved time resolution and radiation tolerance for future collider experiments.
+    <ul style="list-style: none; padding-left: 1.5em;">
       <li><span style="margin-right: 0.5em;">📜</span> Thesis: "Testing towards the qualification of the detector modules of the CMS Endcap Timing Layer"</li>
       <li><span style="margin-right: 0.5em;">🎓</span> Grade: 110/110 cum laude</li>
     </ul>
   </li>
   <br>
   <li><span style="margin-right: 0.5em;">⚛️</span> <a href="https://fisica.campusnet.unito.it/do/home.pl"><em>BSc Degree in Physics</em></a> - <em>University of Turin</em> (2019 - 2022)
-    <ul style="list-style: none; padding-left: 0.5em;">
+    <ul style="list-style: none; padding-left: 1.5em;">
       <li><span style="margin-right: 0.5em;">📜</span> Thesis: "Characterization and data analysis on resistive silicon detectors"</li>
       <li><span style="margin-right: 0.5em;">🎓</span> Grade: 108/110</li>
     </ul>
@@ -53,3 +53,8 @@ I am a MSc graduate in Physics at University of Turin, specialising in silicon d
     Presented the poster "Thin LGADs as radiation-resilient sensors for 4D tracking" at the <em>Eleventh International Workshop on Semiconductor Pixel Detectors for Particles and Imaging (Pixel2024)</em>.
   </li>
 </ul>
+
+## Publications and Proceedings
+1. M. Durando, A.R. Altamura, L. Anderlini et al., “Thin LGADs as radiation-resilient sensors for 4D tracking”, accepted by J. Instrum. as Proceedings of PIXEL24 (Strasbourg, France), in press.
+2. M. Ferrero, A.R. Altamura, R. Arcidiacono et al., "FAST3 ASIC: an analog front-end with 30 ps resolution, designed to readout thin Low Gain Avalanche Diodes" in J. Instrum., vol. 20, 2025.  DOI: [10.1088/1748-0221/20/03/C03007]{https://doi.org/10.1088/1748-0221/20/03/C03007}
+3. T.Croci, A. Fondacci, R. White et al., "Measurements and TCAD simulations of guard-ring structures of thin silicon sensors before and after irradiation" in Nucl. Instrum. Meth. A, vol. 1069, 2024. DOI: [10.1016/j.nima.2024.169801]{https://doi.org/10.1016/j.nima.2024.169801}
