@@ -11,7 +11,7 @@ Here are my public repositories:
 <ul id="repo-list" style="list-style: none; padding-left: 0;"></ul>
 
 <script>
-  const username = "YOUR_GITHUB_USERNAME"; // ← Replace with your GitHub username
+  const username = "MatteoD00"; // ← Replace with your GitHub username
   const repoList = document.getElementById("repo-list");
 
   fetch(`https://api.github.com/users/${username}/repos?per_page=100`)
