@@ -103,7 +103,7 @@ fetch(`https://pub.orcid.org/v3.0/${orcidId}/works`, {
 
   return Promise.all(works.map(group => {
     const summary = group["work-summary"]?.[0];
-    const putCode = summary?.put-code;
+    const putCode = summary?.["put-code"];
     return fetch(`https://pub.orcid.org/v3.0/${orcidId}/work/${putCode}`, {
       headers: { "Accept": "application/vnd.orcid+json" }
     }).then(res => res.json());
