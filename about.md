@@ -69,17 +69,27 @@ const abbreviations = {
 };
 
 function formatAuthors(contributors) {
-  if (!contributors || contributors.length === 0) return "";
+  if (!Array.isArray(contributors) || contributors.length === 0) return "";
+
   const names = contributors.map(c => {
-    const credit = c?.credit_name?.value;
-    const fname = c?.["contributor-name"]?.["given-names"]?.value;
-    const lname = c?.["contributor-name"]?.["family-name"]?.value;
-    return credit || [fname, lname].filter(Boolean).join(" ");
+    // Try credit_name first
+    if (c?.["credit-name"]?.value) return c["credit-name"].value;
+
+    // Otherwise try contributor-name fields
+    const given = c?.["contributor-name"]?.["given-names"]?.value;
+    const family = c?.["contributor-name"]?.["family-name"]?.value;
+
+    if (given || family) return [given, family].filter(Boolean).join(" ");
+
+    return ""; // fallback
   }).filter(Boolean);
+
+  if (names.length === 0) return "";
 
   if (names.length > 3) return names.slice(0, 3).join(", ") + " <em>et al.</em>";
   return names.join(", ");
 }
+
 
 function extractDOI(externalIds) {
   if (!externalIds || !externalIds["external-id"]) return null;
