@@ -55,6 +55,18 @@ I am a MSc graduate in Physics at University of Turin, specialising in silicon d
 </ul>
 
 ## Publications and Proceedings
+<style>
+#orcid-publications ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#orcid-publications li::before {
+  content: "📝";  /* or any emoji you like */
+  margin-right: 0.5em;
+}
+</style>
+
 <div id="orcid-publications">Loading publications...</div>
 
 <script>
