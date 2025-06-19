@@ -58,20 +58,25 @@ I am a MSc graduate in Physics at University of Turin, specialising in silicon d
 <div id="orcid-publications">Loading publications...</div>
 
 <script>
-const orcidId = "0009-0005-8595-1570"; // Replace with your ORCID iD
+const orcidId = "0009-0005-8595-1570";
 const container = document.getElementById("orcid-publications");
 
 const abbreviations = {
   "Physical Review Letters": "Phys. Rev. Lett.",
   "Nature Communications": "Nat. Commun.",
   "Journal of Instrumentation": "J. Instrum.",
-  "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment": "Nucl. Instrum. Methods Phys. Res., Sect. A",
-  // add more here
+  "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment": "Nucl. Instrum. Methods Phys. Res., Sect. A"
 };
 
 function formatAuthors(contributors) {
   if (!contributors || contributors.length === 0) return "";
-  const names = contributors.map(c => c?.credit_name?.value || "").filter(Boolean);
+  const names = contributors.map(c => {
+    const credit = c?.credit_name?.value;
+    const fname = c?.["contributor-name"]?.["given-names"]?.value;
+    const lname = c?.["contributor-name"]?.["family-name"]?.value;
+    return credit || [fname, lname].filter(Boolean).join(" ");
+  }).filter(Boolean);
+
   if (names.length > 3) return names.slice(0, 3).join(", ") + " <em>et al.</em>";
   return names.join(", ");
 }
@@ -86,7 +91,7 @@ function extractDOI(externalIds) {
 }
 
 fetch(`https://pub.orcid.org/v3.0/${orcidId}/works`, {
-  headers: {"Accept": "application/vnd.orcid+json"}
+  headers: { "Accept": "application/vnd.orcid+json" }
 })
 .then(res => res.json())
 .then(data => {
@@ -100,18 +105,27 @@ fetch(`https://pub.orcid.org/v3.0/${orcidId}/works`, {
     const summary = group["work-summary"]?.[0];
     const putCode = summary?.put_code;
     return fetch(`https://pub.orcid.org/v3.0/${orcidId}/work/${putCode}`, {
-      headers: { "Accept": "application/json" }
+      headers: { "Accept": "application/vnd.orcid+json" }
     }).then(res => res.json());
   }));
 })
 .then(details => {
   if (!details) return;
 
+  // Sort by year
+  details.sort((a, b) => {
+    const aYear = parseInt(a?.["publication-date"]?.year?.value || "0");
+    const bYear = parseInt(b?.["publication-date"]?.year?.value || "0");
+    return bYear - aYear;
+  });
+
   container.innerHTML = "<ul>" + details.map(entry => {
+    console.log(entry);  // <-- DEBUG: inspect structure
+
     const title = entry?.title?.title?.value || "Untitled";
     const authors = formatAuthors(entry?.contributors?.contributor);
     const rawjournal = entry?.["journal-title"]?.value || "";
-    const journal = abbreviations[rawjournal] || rawjournal
+    const journal = abbreviations[rawjournal] || rawjournal;
     const year = entry?.["publication-date"]?.year?.value || "";
     const doi = extractDOI(entry?.["external-ids"]);
     const url = doi || entry?.url?.value;
@@ -119,7 +133,7 @@ fetch(`https://pub.orcid.org/v3.0/${orcidId}/works`, {
     return `<li>
       <strong>${title}</strong><br>
       ${authors}<br>
-      <em>${journal}</em>, ${year}<br>
+      <em>${journal}</em>${year ? `, ${year}` : ""}<br>
       ${url ? `<a href="${url}">${doi ? "DOI" : "Link"}</a>` : ""}
     </li>`;
   }).join("") + "</ul>";
