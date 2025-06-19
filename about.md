@@ -61,6 +61,30 @@ I am a MSc graduate in Physics at University of Turin, specialising in silicon d
 const orcidId = "0009-0005-8595-1570"; // Replace with your ORCID iD
 const container = document.getElementById("orcid-publications");
 
+const abbreviations = {
+  "Physical Review Letters": "Phys. Rev. Lett.",
+  "Nature Communications": "Nat. Commun.",
+  "Journal of Instrumentation": "J. Instrum."
+  "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment": "Nucl. Instrum. Methods Phys. Res., Sect. A"
+  // add more here
+};
+
+function formatAuthors(contributors) {
+  if (!contributors || contributors.length === 0) return "";
+  const names = contributors.map(c => c?.credit_name?.value || "").filter(Boolean);
+  if (names.length > 3) return names.slice(0, 3).join(", ") + " <em>et al.</em>";
+  return names.join(", ");
+}
+
+function extractDOI(externalIds) {
+  if (!externalIds || !externalIds["external-id"]) return null;
+  const doiEntry = externalIds["external-id"].find(eid =>
+    eid["external-id-type"]?.toLowerCase() === "doi"
+  );
+  if (!doiEntry) return null;
+  return "https://doi.org/" + doiEntry["external-id-value"];
+}
+
 fetch(`https://pub.orcid.org/v3.0/${orcidId}/works`, {
   headers: { "Accept": "application/json" }
 })
@@ -72,22 +96,36 @@ fetch(`https://pub.orcid.org/v3.0/${orcidId}/works`, {
     return;
   }
 
-  container.innerHTML = "<ul>" + works.map(group => {
+  return Promise.all(works.map(group => {
     const summary = group["work-summary"]?.[0];
-    const title = summary?.title?.title?.value || "Untitled";
-    const journal = summary?.["journal-title"]?.value || "";
-    const year = summary?.["publication-date"]?.year?.value || "";
-    const url = summary?.url?.value || "";
+    const putCode = summary?.put_code;
+    return fetch(`https://pub.orcid.org/v3.0/${orcidId}/work/${putCode}`, {
+      headers: { "Accept": "application/json" }
+    }).then(res => res.json());
+  }));
+})
+.then(details => {
+  if (!details) return;
+
+  container.innerHTML = "<ul>" + details.map(entry => {
+    const title = entry?.title?.title?.value || "Untitled";
+    const authors = formatAuthors(entry?.contributors?.contributor);
+    const rawjournal = entry?.["journal-title"]?.value || "";
+    const journal = abbreviations[rawjournal] || rawjournal
+    const year = entry?.["publication-date"]?.year?.value || "";
+    const doi = extractDOI(entry?.["external-ids"]);
+    const url = doi || entry?.url?.value;
 
     return `<li>
       <strong>${title}</strong><br>
-      ${journal} ${year}<br>
-      ${url ? `<a href="${url}">Link</a>` : ""}
+      ${authors}<br>
+      <em>${journal}</em>, ${year}<br>
+      ${url ? `<a href="${url}">${doi ? "DOI" : "Link"}</a>` : ""}
     </li>`;
   }).join("") + "</ul>";
 })
 .catch(err => {
-  container.innerHTML = "Error fetching publications.";
-  console.error(err);
+  console.error("Error fetching publications:", err);
+  container.innerHTML = "Error loading publications.";
 });
 </script>
