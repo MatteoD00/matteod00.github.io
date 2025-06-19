@@ -86,7 +86,7 @@ function extractDOI(externalIds) {
 }
 
 fetch(`https://pub.orcid.org/v3.0/${orcidId}/works`, {
-  headers: { "Accept": "application/json" }
+  headers: {"Accept": "application/vnd.orcid+json"}
 })
 .then(res => res.json())
 .then(data => {
