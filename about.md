@@ -64,8 +64,8 @@ const container = document.getElementById("orcid-publications");
 const abbreviations = {
   "Physical Review Letters": "Phys. Rev. Lett.",
   "Nature Communications": "Nat. Commun.",
-  "Journal of Instrumentation": "J. Instrum."
-  "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment": "Nucl. Instrum. Methods Phys. Res., Sect. A"
+  "Journal of Instrumentation": "J. Instrum.",
+  "Nuclear Instruments and Methods in Physics Research Section A: Accelerators, Spectrometers, Detectors and Associated Equipment": "Nucl. Instrum. Methods Phys. Res., Sect. A",
   // add more here
 };
 
