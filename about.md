@@ -29,13 +29,13 @@ I am a MSc graduate in Physics at University of Turin, specialising in silicon d
 
 ## Working experience 
 <ul style="list-style: none; padding-left: 0;">
-  <li><span style="margin-right: 0.5em;">⚛️</span> <em>Research Scholar</em></a> - <em>Università del Piemonte Orientale</em> (02/2025 - 06/2026)<br>
+  <li><span style="margin-right: 0.5em;">⚛️</span> <em>Research Scholar</em> - <em>Università del Piemonte Orientale</em> (02/2025 - 06/2026)<br>
     Test of silicon detectors for precise timing (CMS ETL) and 4D tracking (DC-RSD).
   </li>
-  <li><span style="margin-right: 0.5em;">👩‍🏫</span> <em>Teaching Assistant</em></a> - <em>Università del Piemonte Orientale</em> (10/2025 - 12/2025)<br>
+  <li><span style="margin-right: 0.5em;">👩‍🏫</span> <em>Teaching Assistant</em> - <em>Università del Piemonte Orientale</em> (10/2025 - 12/2025)<br>
     Teaching assistant for the Physics course of the Medical School in Novara. Helping students to develop the ability to solve physics quizzes and exercises according to the guidelines of the final examination for the 1st semester of Medical School.
   </li>
-  <li><span style="margin-right: 0.5em;">⚛️</span> <em>Research Scholar</em></a> - <em>University of Turin</em> (08/2025 - 01/2026)<br>
+  <li><span style="margin-right: 0.5em;">⚛️</span> <em>Research Scholar</em> - <em>University of Turin</em> (08/2025 - 01/2026)<br>
     <strong>Test of sensors and modules for CMS ETL</strong> <br>
     Testing of 16x16 LGAD sensors through electrical characterisation and signal analysis in laboratory and clean room environments. Characterisation of modules consisting of 4 sensors connected to read-out electronics through electrical and thermal testing.
   </li>
