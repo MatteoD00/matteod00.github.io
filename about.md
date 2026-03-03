@@ -32,7 +32,7 @@ I am a MSc graduate in Physics at University of Turin, specialising in silicon d
   <li><span style="margin-right: 0.5em;">⚛️</span> <strong>Research Scholar</strong> - <em>Università del Piemonte Orientale</em> (02/2025 - 06/2026)<br>
     Test of silicon detectors for precise timing (CMS ETL) and 4D tracking (DC-RSD).
   </li><br>
-  <li><span style="margin-right: 0.5em;">👩‍🏫</span> <strong>Teaching Assistant</strong> - <em>Università del Piemonte Orientale</em> (10/2025 - 12/2025)<br>
+  <li><span style="margin-right: 0.5em;">👨‍🏫</span> <strong>Teaching Assistant</strong> - <em>Università del Piemonte Orientale</em> (10/2025 - 12/2025)<br>
     Teaching assistant for the Physics course of the Medical School in Novara. Helping students to develop the ability to solve physics quizzes and exercises according to the guidelines of the final examination for the 1st semester of Medical School.
   </li><br>
   <li><span style="margin-right: 0.5em;">⚛️</span> <strong>Research Scholar</strong> - <em>University of Turin</em> (08/2025 - 01/2026)<br>
@@ -48,7 +48,7 @@ I am a MSc graduate in Physics at University of Turin, specialising in silicon d
     Laboratory assistant for the course <a href="https://fisica.campusnet.unito.it/do/corsi.pl/Show?_id=e34b">Introduction to Nuclear and Subnuclear Physics</a> of the BSc Degree in Physics.<br>
     The main activity was to help the students of the laboratory with experiments involving SiPM and scintillators for cosmic ray detection.
   </li><br>
-  <li><span style="margin-right: 0.5em;">👩‍🏫</span> <strong>Math and Science Tutor</strong> - <em>University of Turin</em> (01/2021 - 06/2021)<br>
+  <li><span style="margin-right: 0.5em;">👨‍🏫</span> <strong>Math and Science Tutor</strong> - <em>University of Turin</em> (01/2021 - 06/2021)<br>
     Tutor for the project <a href="https://compitiacasa.i-learn.unito.it/">Compiti@Casa</a> (translation: Homework@Home).<br>
     Helping students from middle school in math and science to achieve more independence while studying and doing homework at home.<br>
     Focus on addressing problems and gaps related to e-learning during the COVID-19 pandemic.
